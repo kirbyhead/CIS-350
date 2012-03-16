@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="vertical" >
+
+<edu.upenn.cis350.TtlView
+android:id="@+id/touchpaint"
+android:layout_width="fill_parent"
+android:layout_height="100px"
+/>
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="1dp"
+		android:orientation="vertical"
+		android:layout_weight="1"
+	 >
+	
+		<Button android:id="@+id/save"
+		android:layout_width="fill_parent"
+		android:layout_height="1dp"
+		android:text="@string/save_button_title"
+		android:orientation="horizontal"
+		android:layout_weight="1"
+		/>
+		
+		<Button android:id="@+id/back"
+		android:layout_width="fill_parent"
+		android:layout_height="1dp"
+		android:text="@string/back_button_title"
+		android:orientation="horizontal"
+		android:layout_weight="1"
+		
+		/>
+		<Button android:id="@+id/clear"
+		android:layout_width="fill_parent"
+		android:layout_height="1dp"
+		android:text="@string/clear_button_title"
+		android:orientation="horizontal"
+		android:layout_weight="1"
+		
+		/>
+	</LinearLayout>
+
+</LinearLayout>
